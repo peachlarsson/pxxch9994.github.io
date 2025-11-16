@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Peach Larsson — Simple Page</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Simple single page site for Peach Larsson">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="brand">Peach Larsson</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container">
+        <h2>Hello, I'm Peach</h2>
+        <p>Developer, designer, and maker. Welcome to my simple single page site.</p>
+        <a href="#contact" class="btn">Get in touch</a>
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h3>About</h3>
+      <p>I build simple, accessible websites and tools. This minimal single-page site is meant to be an easy-to-edit starting point.</p>
+    </section>
+
+    <section id="projects" class="container projects">
+      <h3>Projects</h3>
+      <ul class="project-list">
+        <li><strong>Project A</strong> — A brief description of a project.</li>
+        <li><strong>Project B</strong> — Another short description.</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h3>Contact</h3>
+      <form id="contact-form">
+        <label>Name<input type="text" name="name" required></label>
+        <label>Email<input type="email" name="email" required></label>
+        <label>Message<textarea name="message" rows="4" required></textarea></label>
+        <button type="submit" class="btn">Send</button>
+      </form>
+      <p class="note">Or email: <a href="mailto:peach@example.com">peach@example.com</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Peach Larsson</p>
+      <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
